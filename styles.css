@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    min-height: 100vh;
+    transition: background-color 0.3s ease; /* Animación suave para el color de fondo del cuerpo */
+
+    /* Agrega el fondo animado (reemplaza 'tu_gif.gif' con la ruta de tu GIF) */
+    background-image: url('ransomware.gif');
+    background-size: cover; /* Ajusta el tamaño del fondo para cubrir el área del cuerpo */
+    background-repeat: no-repeat; /* Evita que el fondo se repita */
+}
+
+
+.container {
+    max-width: 600px; /* Tamaño máximo del contenedor */
+    text-align: center;
+    padding: 30px; 
+    border: 1px solid #857c7c;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #c58d8dc5; /* Sombra más pronunciada */
+    background-color: #eee9e9dd; 
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animación suave para el color de fondo y la transformación */
+    transform: translateY(0); /* Inicialmente, el contenedor no se moverá */
+}
+
+.container:hover {
+    background-color: #434141b0; /* Cambio de color de fondo al pasar el ratón */
+    transform: translateY(-5px); /* Eleva ligeramente el contenedor */
+}
+
+h1 {
+    color: #090e14; /* Color del encabezado */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo del botón */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el ratón */
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
